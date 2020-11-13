@@ -27,4 +27,4 @@ A C++ project designed to generate bitmap images of fractals
     -> You can change the zoom/pattern
 
 ## Demo Image
-<img alt="Fractal 1" width="120px" src="https://github.com/Eshanatnight/FractalBitmapGenerator/blob/main/Mandelbrot.bmp"/>
+<img alt="Fractal 1" width="1280px" src="https://github.com/Eshanatnight/FractalBitmapGenerator/blob/main/Mandelbrot.bmp"/>
