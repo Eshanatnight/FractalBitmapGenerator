@@ -1,5 +1,11 @@
 cmake_minimum_required(VERSION 3.10)
 
+# specify the C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+set(CMAKE_BUILD_TYPE Release)
+
 # set the project name
 project(FractalBitmapGenerator VERSION 1.0.0)
 
@@ -51,10 +57,13 @@ project(FractalBitmapGenerator VERSION 1.0.0)
     )
 
 # add the executable
-add_executable(FractalBitmapGenerator ./src/main.cpp)
+add_executable(FractalBitmapGenerator
+                ./src/main.cpp
+                ./src/Bitmap.cpp
+                ./src/FractalCreator.cpp
+                ./src/Mandelbrot.cpp
+                ./src/RGB.cpp
+                ./src/ZoomList.cpp)
 
 target_link_libraries(FractalBitmapGenerator PRIVATE Bitmap BitmapFileHeader BitmapInfoHeader FractalCreator Mandelbrot RGB Zoom ZoomList)
 
-# specify the C++ standard
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
