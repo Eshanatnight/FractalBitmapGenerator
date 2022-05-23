@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include "FractalCreator.h"
-#include "RGB.h"
-#include "Zoom.h"
+#include "include/FractalCreator.h"
+#include "include/RGB.h"
+#include "include/Zoom.h"
 
 using namespace Fractal;
 
@@ -13,7 +13,7 @@ int main()
 
 	fractalCreator.addRange(0.0, RGB(0,0,0));
 	fractalCreator.addRange(0.3, RGB(206, 95, 237));
-	// fractalCreator.addRange(0.5, RGB(220, 200, 0));
+	fractalCreator.addRange(0.5, RGB(0, 30, 210));
 	fractalCreator.addRange(1.0, RGB(220, 20, 60));
 	fractalCreator.addRange(0.3, RGB(0, 0, 0));
 	fractalCreator.addRange(0.5, RGB(255, 100, 150));

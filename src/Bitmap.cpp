@@ -1,7 +1,7 @@
 #include <fstream>
-#include "Bitmap.h"
-#include "BitmapInfoHeader.h"
-#include "BitmapFileHeader.h"
+#include "include/Bitmap.h"
+#include "include/BitmapInfoHeader.h"
+#include "include/BitmapFileHeader.h"
 
 
 using namespace Bitmapping;

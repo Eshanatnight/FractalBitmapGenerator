@@ -1,5 +1,5 @@
 #include <complex.h>
-#include "Mandelbrot.h"
+#include "include/Mandelbrot.h"
 
 using namespace std;
 
